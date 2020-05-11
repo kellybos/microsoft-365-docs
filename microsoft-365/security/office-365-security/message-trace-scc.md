@@ -200,12 +200,14 @@ The message trace details contain the following additional information that's no
   - **Defer**: The message delivery was postponed and might be re-attempted later.
 
   - **Resolved**: The message was redirected to a new recipient address based on an Active Directory look up. When this happens, the original recipient address is listed in a separate row in the message trace along with the final delivery status for the message.
+  
+  - **Transport rule**: A transport rule or DLP policy acted on the message. The ID (GUID) of the rule or policy will be displayed, the other GUID will be blank (all 0's). 
 
   Notes:
 
   - An uneventful message that's successfully delivered will generate multiple **Event** entries in the message trace.
-
-  - This list is not meant to be exhaustive. For descriptions of more events, see [Event types in the message tracking log](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log). Note that this link is an Exchange Server (on-premises Exchange) topic.
+  
+   - This list is not meant to be exhaustive. For descriptions of more events, see [Event types in the message tracking log](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log). Note that this link is an Exchange Server (on-premises Exchange) topic.
 
 - **More information**: This section contains the following details:
 
