@@ -193,7 +193,7 @@ After the retention label is applied, you can view that retention label and what
   
 ![Label assigned to email in Outlook on the web](../media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
   
-You can also apply retention labels to folders, in which case:
+You can also apply retention labels to folders (except the Inbox), in which case:
   
 - All items in the folder automatically get the same retention label, **except** for items that have had a retention label applied explicitly to them. Explicitly labeled items keep their existing retention label. For more information, see the below section on the principles of retention. 
     
@@ -213,7 +213,7 @@ You can also right-click an item, click **Assign Policy** in the context menu, a
 
 After the retention label is applied, you can view that retention label and what action it takes at the top of the item. If an email has a retention label applied that has an associated retention period, you can see at a glance when the email expires.
   
-You can also apply retention labels to folders. This works the same in Outlook 2010 and later as it does in Outlook on the web. See the previous section for more info.
+You are not able to apply a retention label to a folder in Outlook.
   
 ### OneDrive and SharePoint
 
