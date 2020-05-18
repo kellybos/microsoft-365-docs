@@ -203,6 +203,8 @@ Below the chart, you'll see a list of email categories, such as **GoodMail**, **
 
 ![This report tells you about anti-malware, anti-spam, and other message detections](../../media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
 
+For a full description of the categories and mail types, see [Get-MailTrafficReport] (https://docs.microsoft.com/en-us/powershell/module/exchange/reporting/get-mailtrafficreport?view=exchange-ps) for more detailed information.
+
 To learn more about email intelligence, see [Mail flow intelligence in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365).
 
 ## User-reported messages report
